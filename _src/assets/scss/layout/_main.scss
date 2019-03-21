@@ -19,3 +19,24 @@
     line-height: 1.67;
     color: $gray;
 }
+
+.btn__go {
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 2px solid $orange;
+    background: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.go {
+    width: 25px;
+    height: 45px;
+    font-family: $roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    color: $orange;
+  }
