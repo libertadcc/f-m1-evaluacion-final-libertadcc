@@ -1,16 +1,19 @@
+.hero {
+    width: 568px;
+}
 .hero__image {
     min-height: 100vh;
     width: auto; //arreglar esto
 }
-.hero__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: -70vh;
-    color: white;
-}
-.hero__title {
-    font-size: 30px;
-}
+// .hero__description {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: center;
+//     position: relative;
+//     top: -70vh;
+//     color: white;
+// }
+// .hero__title {
+//     font-size: 30px;
+// }
