@@ -1,23 +1,24 @@
 // WINDOW
 
 .ppal__link {
-    width: 90px;
-    height: 30px;
     font-family: $roboto;
     font-size: 14px;
     line-height: 2.14;
-    color: $celeste ;
+    color: $celeste;
     margin: 30px 0 0 0;
-    text-transform: capitalize;
+    text-transform: caspitalize;
 }
 
 .ppal__title {
     margin: 0;
     text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: $robotoslab;
+    line-height: 1.25;
 }
 .ppal__text {
     width: 290px;
-    height: 120px;
     font-family: $roboto;
     font-size: 18px;
     line-height: 1.67;
@@ -88,6 +89,11 @@
 }
 
 // BUTTON  
+.button__more {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .btn__more {
     width: 184px;
     height: 45px;
