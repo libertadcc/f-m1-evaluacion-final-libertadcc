@@ -18,7 +18,6 @@
     line-height: 1.25;
 }
 .ppal__text {
-    width: 290px;
     font-family: $roboto;
     font-size: 18px;
     line-height: 1.67;
@@ -67,6 +66,14 @@
     grid-gap: 45px;
     text-align: center;
     margin: 0 70px;
+    @media all and (min-width:768px) {
+        display: grid;
+        grid-template-rows: 1fr;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 27px;
+        text-align: center;
+    }
 }
 
 .reason__title {
