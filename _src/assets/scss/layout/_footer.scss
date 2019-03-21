@@ -1,7 +1,11 @@
 .footer {
     background: $darkblue;
     padding-bottom: 45px;
-
+}
+.footer .wrapper {
+    @media all and (min-width:1200px) {
+        margin: 0 275px;
+    }
 }
 //ARROW
 .box__arrow {
