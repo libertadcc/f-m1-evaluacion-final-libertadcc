@@ -67,5 +67,24 @@
     font-size: 14px;
 }
 .heart {
-    color: red;
+    color:$orange;
+}
+
+@media all and (min-width:768px) {
+    .footer__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .copyright {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: left;
+    }
+    .menu__list {
+        text-align: left;
+    }
+    .social__list {
+        text-align: left;
+    }
 }
