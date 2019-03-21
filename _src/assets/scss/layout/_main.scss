@@ -35,8 +35,12 @@
     height: 45px;
     border-radius: 22.5px;
     border: 2px solid $orange;
-    background: white;
+    background: $white;
+    transition: background-color ease .5s, border-color ease .8s;
     &:hover{
+        transform: scale(1.5);
+        background-color: $darkblue;
+        border-color: $backblue;
         cursor: pointer;
     }
 }
@@ -49,6 +53,8 @@
     font-weight: 500;
     line-height: 2.25;
     color: $orange;
+    transition: color ease .5s;
+   
 }
 
 // REASONS
@@ -126,7 +132,10 @@
     margin-bottom: 60px;
     border: none;
     box-shadow: none;
+    transition: background-color ease .5s,border-color ease .8s;
     &:hover{
+        transform: scale(1.5);
+        background-color: $darkblue;
         cursor: pointer;
     }
 }
@@ -139,4 +148,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 2.25;
+    &:hover {
+        color: $orange;
+    }
 }
