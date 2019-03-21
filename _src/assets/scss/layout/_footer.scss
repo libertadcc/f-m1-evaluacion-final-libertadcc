@@ -16,7 +16,7 @@
 .icon {
     width: 45px;
     height: 45px;
-    background: white;
+    background: $white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -33,11 +33,15 @@
 }
 .menu__link {
     text-transform: uppercase;
-    color: white;
+    color: $white;
     font-family: $roboto;
     text-decoration: none;
     line-height: 1.88;
+    &:hover {
+        color:$orange;
+    }
 }
+
 
 // SOCIAL
 
@@ -48,10 +52,13 @@
 }
 .social__link {
     text-transform: uppercase;
-    color: white;
+    color: $white;
     font-family: $roboto;
     text-decoration: none;
     line-height: 1.88;
+    &:hover {
+        color: $orange;
+    }
 }
 
 // COPYRIGHT
@@ -59,7 +66,7 @@
     text-align: center;
     font-family: $roboto;
     line-height: 2.14;
-    color:white;
+    color:$white;
 }
 
 .year {
