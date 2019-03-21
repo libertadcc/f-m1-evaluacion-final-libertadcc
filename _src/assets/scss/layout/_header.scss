@@ -1,10 +1,17 @@
-.header__btn {
+.hamburguer {
     width: 44px;
     height: 44px;
     background-color: #0271bc;
-    color: white;
-    border: none;
     position: fixed;
     top: 0;
     left: 0;
+    &:hover{
+        cursor: pointer;
+    }
 }
+.btn { 
+    width: 14px;
+    height: 16px;
+    padding: 14px;
+}
+
