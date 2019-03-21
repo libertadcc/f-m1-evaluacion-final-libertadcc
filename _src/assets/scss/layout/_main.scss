@@ -6,7 +6,7 @@
     line-height: 2.14;
     color: $celeste;
     margin: 30px 0 0 0;
-    text-transform: caspitalize;
+    text-transform: capitalize;
 }
 
 .ppal__title {
@@ -70,7 +70,7 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 27px;
+        grid-gap: 30px;
         text-align: center;
     }
 }

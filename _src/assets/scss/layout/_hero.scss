@@ -10,11 +10,19 @@
 
 //TITLE
 .text {
-    text-align: center;
     margin: 0;
     position: relative;
-    top: 65vh;
+    top: 40vh;
+    width: auto;
+    text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media all and (min-width: 768px) {
+    
+    }
 }
 .hero__title {
     font-family: $robotoslab;
@@ -23,11 +31,23 @@
     line-height: 1.31;
     font-weight: bold;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    @media all and (min-width: 768px) {
+        font-size: 80px;
+        line-height: 1.33;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 100px;
+    }
 }
 .hero__subtitle {
+    margin: 0;
     font-family: $roboto;
     font-size: 16px;
     font-weight: normal;
+    @media all and (min-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 //SCROLL DOWN
@@ -36,8 +56,12 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 70vh;
+    top: 50vh;
     padding: 0;
+    @media all and (min-width: 768px) {
+        top: 45vh;
+    }
+    
 }
 .scroll {
     width: 45px;
