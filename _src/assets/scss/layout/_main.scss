@@ -12,6 +12,9 @@
     color: $celeste;
     margin: 30px 0 0 0;
     text-transform: capitalize;
+    @media all and (min-width: 1200px) {
+        font-size: 16px;
+    }
 }
 
 .ppal__title {
@@ -21,12 +24,21 @@
     font-weight: bold;
     font-family: $robotoslab;
     line-height: 1.25;
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 32px;
+    }
 }
 .ppal__text {
     font-family: $roboto;
     font-size: 18px;
     line-height: 1.67;
     color: $gray;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
 
 .btn__go {
@@ -42,6 +54,12 @@
         background-color: $darkblue;
         border-color: $backblue;
         cursor: pointer;
+    }
+    @media all and (min-width: 768px) {
+        width: 91px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 160px;
     }
 }
 
