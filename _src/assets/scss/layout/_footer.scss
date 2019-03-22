@@ -84,8 +84,22 @@
     margin: 0;
     font-size: 14px;
 }
+@keyframes colorchange {
+    0% { color: $orange; }
+    10% {color: #ff00ff;}
+    20% {color: $orange;}
+    30% {color: #afeeee; }
+    40% {color: $orange; }
+    50% {color: #9acd32;}
+    60% {color: $orange;}
+    70% {color: #f1c40f;}
+    80% {color: $orange;}
+    90% {color: #9b59b6;}
+    100% { color: $orange;}
+}
 .heart {
     color:$orange;
+    animation: colorchange 15s infinite;
 }
 
 @media all and (min-width:768px) {
