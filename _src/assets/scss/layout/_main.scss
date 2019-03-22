@@ -90,6 +90,12 @@
     padding: 30px;
     margin: 0;
     margin-bottom: 15px;
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 32px;
+    }
 }
 .reason__grid {
     display: grid;
@@ -155,6 +161,12 @@
         transform: scale(1.5);
         background-color: $darkblue;
         cursor: pointer;
+    }
+    @media all and (min-width: 768px) {
+        width: 210px;
+    }
+    @media all and (min-width: 768px) {
+        width: 255px;
     }
 }
 
