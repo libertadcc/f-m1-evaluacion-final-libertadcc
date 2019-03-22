@@ -7,6 +7,7 @@
         margin: 0 275px;
     }
 }
+
 //ARROW
 @keyframes latidos {
     from { transform: none; }
@@ -32,7 +33,6 @@
 
 
 //LINKS
-
 .menu__list {
     text-align: center;
     list-style: none;
@@ -49,9 +49,7 @@
     }
 }
 
-
 // SOCIAL
-
 .social__list {
     text-align: center;
     list-style: none;
@@ -75,7 +73,6 @@
     line-height: 2.14;
     color:$white;
 }
-
 .year {
     font-size: 14px;
     margin: 0;
