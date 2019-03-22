@@ -1,6 +1,7 @@
 .footer {
     background: $darkblue;
     padding-bottom: 45px;
+    box-sizing: border-box;
 }
 .footer .wrapper {
     @media all and (min-width:1200px) {
@@ -11,10 +12,12 @@
 //ARROW
 @keyframes latidos {
     from { transform: none; }
-    50% { transform: scale(1.4); }
+    50% {transform: scale(1.3);}
     to { transform: none; }
 }
 .box__arrow {
+    background: #ff00ff;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     width: 100%;
