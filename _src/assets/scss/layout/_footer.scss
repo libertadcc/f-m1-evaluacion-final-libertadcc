@@ -8,10 +8,16 @@
     }
 }
 //ARROW
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.4); }
+    to { transform: none; }
+}
 .box__arrow {
     display: flex;
     justify-content: center;
     width: 100%;
+    animation: latidos 2s infinite;
 }
 .icon {
     width: 45px;
@@ -23,6 +29,7 @@
     align-items: center;
     transform: translateY(-23px);
 }
+
 
 //LINKS
 
