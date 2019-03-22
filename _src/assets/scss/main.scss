@@ -1,5 +1,6 @@
 @import 'core/settings';
 @import 'core/variables';
+
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/main';
@@ -15,7 +16,6 @@ html {
 	scroll-behavior: smooth;
 }
 .wrapper {
-	
 	margin: 0 15px;
 	@media all and (min-width: 768px) {
 		margin: 0 40px;	
