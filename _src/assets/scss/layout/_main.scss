@@ -184,3 +184,30 @@
         color: $orange;
     }
 }
+
+.special {
+    background: $orange;
+    color: $white;
+    display: none;
+    @media all and (min-width: 768px) {
+        display: block;
+    }
+}
+.special__title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.special__sect {
+    @media all and (min-width: 768px) {
+        display: flex;
+    }
+}
+.special__sub {
+    margin: 0;
+}
+.special__text {
+    margin: 0;
+    @media all and (min-width: 768px) {
+        margin-left: 40px;
+    }
+}
